@@ -736,6 +736,54 @@ body{
 .clients .owl-dot.active {
     background-color: #4F84C4;
 }    
+/* our industrial logo  start */
+.industrial {
+    position: relative;
+    padding: 90px 0;
+    text-align: center;
+    margin-top: -10rem;
+    margin-bottom: -10rem;
+}
+
+.industrial .section-header p {
+    padding-bottom: 10px;
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    padding: 1rem 0;
+}
+
+.industrial img {
+    max-width: 100%;
+    opacity: 1;
+    transition: 0.3s;
+    padding: 15px 0;
+}
+
+.industrial img:hover {
+    opacity: .5;
+}
+
+.industrial .owl-nav,
+.industrial .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.industrial .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+}
+
+.industrial .owl-dot.active {
+    background-color: #4F84C4;
+} 
+/* our industrial logo end  */
 
 .team{
     min-width: 100vw;
