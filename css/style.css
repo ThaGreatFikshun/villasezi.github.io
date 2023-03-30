@@ -711,7 +711,7 @@ body{
     max-width: 100%;
     opacity: 1;
     transition: 0.3s;
-    padding: 15px 0;
+    padding: 15px 5px;
 }
 
 .clients img:hover {
@@ -846,7 +846,7 @@ body{
 
 .team .row .card .info span{
     font-size: 1.8rem;
-    color: green;
+    color: #00bfff;
 }
 
 .team .row .card .info .icons a{
@@ -865,7 +865,7 @@ body{
 }
 
 .team .row .card .info .icons .fa-twitter:hover, .footer .icons .fa-twitter:hover{
-    color: green;
+    color: #00bfff;
     text-decoration: none;
 }
 
@@ -875,7 +875,7 @@ body{
 }
 
 .team .row .card .info .icons .fa-linkedin:hover, .footer .icons .fa-linkedin:hover{
-    color: green;
+    color: #00bfff;
     text-decoration: none;
 }
 
@@ -889,7 +889,7 @@ body{
 }
 
 .team .row .card::before{
-    background: green;
+    background: #00bfff;
     top: -3rem;
     right: -4rem;
 }
